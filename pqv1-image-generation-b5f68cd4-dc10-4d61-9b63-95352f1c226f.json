@@ -1,0 +1,191 @@
+{
+  "id": "b5f68cd4-dc10-4d61-9b63-95352f1c226f",
+  "type": "image",
+  "sections": [
+    {
+      "id": "2f25adc4-a587-4fcd-a2fb-2bb22ecc7682",
+      "title": "Subject Type",
+      "inputType": "checkbox",
+      "value": [
+        "Animal"
+      ],
+      "weight": 1.2,
+      "options": [
+        "Person",
+        "Animal",
+        "Object",
+        "Character",
+        "Vehicle"
+      ]
+    },
+    {
+      "id": "e999755a-93b9-47b5-924a-27677a89b833",
+      "title": "Subject Description",
+      "inputType": "text",
+      "value": "Golden retriever dog with friendly expression",
+      "weight": 1.1
+    },
+    {
+      "id": "e74faa9d-dc91-440f-bb8c-be0029d8ad4d",
+      "title": "Environment: Location",
+      "inputType": "text",
+      "value": "urban skate park",
+      "weight": 0.9
+    },
+    {
+      "id": "07b440f2-9de8-4578-9421-3fcf1d7f5bfb",
+      "title": "Time of Day",
+      "inputType": "checkbox",
+      "value": [
+        "Dawn"
+      ],
+      "weight": 1,
+      "options": [
+        "Dawn",
+        "Day",
+        "Sunset",
+        "Night"
+      ]
+    },
+    {
+      "id": "f3f77291-410e-4204-a12a-4250dcda8596",
+      "title": "Environment: Weather",
+      "inputType": "checkbox",
+      "value": [
+        "Snowy"
+      ],
+      "weight": 0.6,
+      "options": [
+        "Clear",
+        "Cloudy",
+        "Rainy",
+        "Snowy",
+        "Foggy"
+      ]
+    },
+    {
+      "id": "cbad0b23-e51d-4ba7-99b7-b889a7ec619c",
+      "title": "Lighting",
+      "inputType": "text",
+      "value": "warm golden hour lighting, slight lens flare",
+      "weight": 0.8
+    },
+    {
+      "id": "2fcf1afe-ad2f-4153-95a2-7f8db47c3fab",
+      "title": "Artistic Style",
+      "inputType": "select",
+      "value": "",
+      "weight": 1.1,
+      "options": [
+        "Photorealistic",
+        "Digital Art",
+        "Oil Painting",
+        "Anime"
+      ]
+    }
+  ],
+  "subTemplates": [
+    {
+      "id": "5de2b79a-2bf3-47b8-806f-eab93b37215f",
+      "parentId": "v5ujheyubtqm466ex70",
+      "type": "image",
+      "sections": [
+        {
+          "id": "b6245fe0-1e5a-46b9-b180-f82c70047bd4",
+          "title": "Quality Enhancers",
+          "inputType": "checkbox",
+          "value": [
+            "HDR",
+            "Cinematic"
+          ],
+          "required": true,
+          "weight": 0.5,
+          "options": [
+            "HDR",
+            "8K",
+            "Highly Detailed",
+            "Professional Photography",
+            "Cinematic",
+            " Studio Lighting"
+          ]
+        }
+      ],
+      "qualityScore": 40,
+      "metadata": {
+        "created": "2024-12-01T23:32:01.807Z",
+        "modified": "2024-12-01T23:37:29.672Z",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "id": "0994bc9c-4b46-4284-b008-d66a69c8ffef",
+      "parentId": "a679201e-f072-4b72-8fc9-e7bec2971125",
+      "type": "image",
+      "sections": [
+        {
+          "id": "2f930b0c-4dee-4846-b24a-e8a6b1b2927f",
+          "title": "Technical Parameters: Aspect Ratio",
+          "inputType": "select",
+          "value": "",
+          "required": true,
+          "weight": 1,
+          "options": [
+            "1:1",
+            "16:9",
+            "4:3",
+            "9:16"
+          ]
+        },
+        {
+          "id": "f1a94661-9f91-42f6-a5d0-ed79b0ed919f",
+          "title": "Technical Parameters: Color Palette",
+          "inputType": "text",
+          "value": "vibrant, warm tones, high contrast",
+          "required": true,
+          "weight": 1
+        }
+      ],
+      "qualityScore": 20,
+      "metadata": {
+        "created": "2024-12-01T23:34:00.035Z",
+        "modified": "2024-12-01T23:36:09.954Z",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "id": "06c81811-2cbb-4fe7-b252-4aab386d9fdc",
+      "parentId": "a679201e-f072-4b72-8fc9-e7bec2971125",
+      "type": "image",
+      "sections": [
+        {
+          "id": "56d619b2-0e33-44d0-8754-daf1635d48e2",
+          "title": "Negative Prompt",
+          "inputType": "text",
+          "value": "blurry, low quality, distorted, deformed, ugly, unrealistic anatomy, bad proportions, extra limbs, watermark, signature, text",
+          "required": true,
+          "weight": 0.7
+        }
+      ],
+      "qualityScore": 40,
+      "metadata": {
+        "created": "2024-12-01T23:36:29.773Z",
+        "modified": "2024-12-01T23:36:49.502Z",
+        "version": "1.0.0"
+      }
+    }
+  ],
+  "qualityScore": 70,
+  "metadata": {
+    "title": "Image Generation",
+    "intention": "Generate a high quality image based on prompt instructions provided",
+    "created": "2024-12-02T02:43:15.841Z",
+    "modified": "2024-12-02T02:43:15.841Z",
+    "version": "1.0.0",
+    "tags": [
+      "image",
+      "environment",
+      "art"
+    ],
+    "exported": "2024-12-02T02:44:20.678Z"
+  }
+}
